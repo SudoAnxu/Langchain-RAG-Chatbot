@@ -7,7 +7,9 @@ from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 from config import GROQ_API_KEY, LLM_MODEL, CHROMA_DIR, DATA_FILE
-
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = pysqlite3
 def load_split_documents():
     loader = TextLoader(DATA_FILE)
     documents = loader.load()
