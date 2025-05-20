@@ -8,3 +8,4 @@ tiktoken
 python-dotenv
 pydantic
 requests
+protobuf==3.20.3
