@@ -1,15 +1,7 @@
-# --- CRITICAL VERSION PINS FOR CHROMADB + STREAMLIT ---
-chromadb==0.4.24
-protobuf==3.20.3
-opentelemetry-exporter-otlp-proto-grpc==1.15.0
-opentelemetry-proto==1.15.0
-opentelemetry-sdk==1.15.0
-opentelemetry-api==1.15.0
-# ------------------------------------------------------
-
 streamlit
 langchain
 langchain-community
 langchain-groq
 fastembed
-# ...add the rest of your packages as needed
+chromadb==0.4.24
+protobuf==3.20.3
