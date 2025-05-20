@@ -5,3 +5,5 @@ langchain-groq
 fastembed
 chromadb==0.4.24
 protobuf==3.20.3
+numpy<2.0
+# (No opentelemetry-* lines!)
