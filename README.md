@@ -4,12 +4,12 @@ This is a Retrieval-Augmented Generation (RAG) chatbot built using [LangChain](h
 
 ## 🔧 Features
 
-- ✅ Loads and splits a text document into semantic chunks.
-- ✅ Stores embeddings using ChromaDB with `BAAI/bge-base-en-v1.5`.
-- ✅ Uses Groq's LLMs (e.g., `llama3-8b-8192`) via `langchain-groq`.
-- ✅ Implements RetrievalQA with context-aware prompts.
-- ✅ Built-in Streamlit interface for interactive querying.
-- ✅ Source document traceability for every answer.
+-  Loads and splits a text document into semantic chunks.
+-  Stores embeddings using ChromaDB with `BAAI/bge-base-en-v1.5`.
+-  Uses Groq's LLMs (e.g., `llama3-8b-8192`) via `langchain-groq`.
+-  Implements RetrievalQA with context-aware prompts.
+-  Built-in Streamlit interface for interactive querying.
+-  Source document traceability for every answer.
 
 ---
 
