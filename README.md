@@ -35,8 +35,8 @@ This is a Retrieval-Augmented Generation (RAG) chatbot built using [LangChain](h
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/langchain-chatbot.git
-cd langchain-chatbot
+git clone https://github.com/SudoAnxu/Langchain-RAG-Chatbot.git
+cd Langchain-RAG-Chatbot
 ````
 
 ### 2. Create a virtual environment
